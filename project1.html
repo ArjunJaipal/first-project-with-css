@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1</title>
+    <!-- font awersome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:sans-serif;    
+    }
+    body{
+        height: 100vh;
+        width: 100vw;
+        background-color:aliceblue ;
+        display:flex;
+        flex-direction:column ;
+        justify-content: space-between;
+    }
+    li{
+        list-style: none;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+    }
+    button{
+        background-color: rgb(18,155,155);
+        padding: 4px 10px;
+        cursor: pointer;
+        color: white;
+        border: 1px solid white;
+        border-radius: 1px;
+        font-weight: 600;
+        width:fit-content;
+    }
+    button:hover{
+        background-color: white;
+        color:black;
+        border: 1px solid black;
+    }
+    header{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    header .logo{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    header ul{
+       display: flex;
+       align-items: center;
+       gap: 30px;
+       font-weight: 500;
+    }
+    header ul li:hover{
+        text-decoration: underline;
+        font-weight: 900;
+    }
+    .search{
+        display: flex;
+        gap: 35px;
+    }
+    .hero-section{
+        display: flex;
+        align-items: center;       
+    }
+    .hero-left-section{
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    .hero-left-section h1 span{
+        color: rgb(18,155,155);
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    .hero-left-section p{
+        font-weight: 500;
+    }
+    .hero-left-section p span{
+        font-weight: 700;
+        font-size: 25px;
+        color: rgb(18,155,155);
+    }
+    .hero-right-section{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .hero-right-section button{
+        display: flex;
+        align-items:center ;
+        gap: 30px;
+    }
+    .hero-right-section img{
+        height:300px;
+        width: 300px;
+        border-radius: 50%;
+
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    footer p{
+        font-weight: 600;
+    }
+    footer ul{
+        display: flex;
+        gap:30px;
+        align-items: center;
+    }
+    
+
+
+</style>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <ul>
+            <li><a href="http://">Index</a></li>
+            <li><a href="http://">About</a></li>
+            <li><a href="http://">Contact</a></li>
+        </ul>
+        <div class="search">
+             <input type="text" placeholder="search">
+             <button>search</button>
+        </div>   
+    </header>
+    <section class="hero-section">
+        <div class="hero-left-section">
+        <h1>HELLO, I AM A <span>WEB DEVELOPER</span></h1>
+        <P>I WISH TO WORK WITH SOME OF THE BEST <span>CONSULTING FERMS</span> IN NEAR FUTURE
+           <br>
+           Please stay updated with this <span>SITE</span> for further imfo   
+        </P>
+        </div>
+
+        <div class="hero-right-section">
+            <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/01%20Feb%202023%20%7C%20Project%20With%20Mock%20up%20with%20design%20-1/assets/avtar.png?raw=true" alt="">
+             
+        </div>
+        <div class="hero2>
+            <button>Chat With Us</button>
+        </div>              
+    </section> 
+    <footer>
+        <p>copyright reserved</p>
+        <ul>
+            <li><i class="fa-brands fa-github"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+        </ul>
+    </footer>  
+</body>
+</html>
